@@ -1,4 +1,4 @@
 {
     "WEBDIR": "public",
-    "PHP_EXTENSIONS": ["gd", "pdo", "pgsql", "pdo_pgsql"]
+    "PHP_EXTENSIONS": ["gd", "pdo", "pgsql", "pdo_pgsql", "curl"]
 }
