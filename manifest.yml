@@ -1,0 +1,7 @@
+---
+applications:
+    - name: rfc360-submit-integration
+      buildpack: php_buildpack
+      memory: 64M
+      instances: 1
+      host: rfc360-submit-integration
