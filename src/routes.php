@@ -17,8 +17,8 @@ $app->post('/application', function (Request $request, Response $response, array
     // Sample log message
     $this->logger->info("Slim-Skeleton '/' route");
     $data = trim(file_get_contents("php://input"));
-    echo "". $data .""
-    echo '<script>console.log("data input from cst "'.$data.')</script>'; 
+    $this->logger->debug($data);
+    
 
     $ch = curl_init('https://api360.fundko.com/Service1.svc/process360Test');
     curl_setopt($ch, CURLOPT_CUSTOMREQUEST, "POST");
